@@ -1,0 +1,124 @@
+.header {
+    background: rgba(173, 21, 1, 0.842);
+    border: 1px solid rgba(173, 21, 1, 0.842);
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.header > .title {
+    margin-top: 25px;
+    float: left;
+}
+
+.navigation {
+    background: rgba(193, 36, 109, 0.842);
+    border: 1px solid rgba(193, 36, 109, 0.842);
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+.navigation > .title {
+    margin-top: 5px;
+}
+
+.sidebar {
+    background: rgba(0, 151, 255, 0.842);
+    border: 1px solid rgba(0, 151, 255, 0.842);
+    margin-bottom: 10px;
+    height: 560px;
+}
+
+.sidebar > .title {
+    margin-top: 250px;
+    
+}
+
+.principal {
+    background: rgba(255, 137, 0, 0.842);
+    border: 1px solid rgba(255, 137, 0, 0.842);
+    margin-bottom: 10px;
+    height: 160px;
+}
+
+.principal > .title {
+    margin-top: 50px;
+}
+
+.productos {
+    background: rgba(84, 209, 46, 0.842);
+    border: 1px solid rgba(84, 209, 46, 0.842);
+    margin-bottom: 10px;
+    height: 390px;
+}
+
+.producto {
+    background: rgba(124, 249, 69, 0.842);
+    border: 1px solid rgba(124, 249, 69, 0.842);
+    margin-bottom: 10px;
+    height: 290px;
+    margin-top: 20px;
+}
+
+.producto > .title {
+    margin-top: 110px;
+}
+
+.footer {
+    background: rgba(173, 21, 1, 0.842);
+    border: 1px solid rgba(173, 21, 1, 0.842);
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.title{
+    color: white;
+    vertical-align: middle;    
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.price {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.date {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: unset;
+    margin-top: 35px;
+}
+
+.cart {
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+
+}
+
+.counter {
+    color: white;
+    font-size: 18px;
+}
+
+.criptomonedas {
+    background: rgba(12, 61, 195, 0.842);
+    height: 390px;
+}
+
+.criptomonedas > .titleCripto {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.listCriptos {
+    list-style-position: outside;
+    position:relative;
+    color: white;
+  }
+  
+.listCriptos a {
+    position:absolute;
+    left:70px;
+    color: white;
+  }
