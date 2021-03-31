@@ -9,7 +9,7 @@ import Header from './Header'
 import Navigation from './Navigation'
 import Sidebar from './Sidebar'
 import Principal from './Principal'
-import Productos from './Productos';
+import Productos from './Productos'
 import Footer from './Footer';
 import Criptomoneda from './Criptomoneda'
 
@@ -18,17 +18,15 @@ const Estructura = () => {
     // Creamos una variable para obtener el año actual
     const date = new Date().getFullYear()
     // Mandamos a crear el state de Items del carrito
-    const [itemsCart, addItemCart] = useState(0)
-    
+    const [itemsCart, addItemCart, deleteItemCart, updateItemCart] = useState(0)
 
-    
     return (
         <Fragment>
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <Header
-                            title="HEADER"
+                            title="GROWTHBOX"
                             itemsCart={itemsCart}
                         />  
                     </div>
@@ -56,6 +54,8 @@ const Estructura = () => {
                                     title="PRODUCTOS"
                                     addItemCart={addItemCart}
                                     itemsCart={itemsCart}
+                                    deleteItemCart={deleteItemCart}
+                                    updateItemCart={updateItemCart}
                                 /> 
                             </div>
                             <div className="col-4">

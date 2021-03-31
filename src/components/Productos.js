@@ -13,18 +13,22 @@ const Productos = (props) => {
                         </div>
                         <div className="col-6">
                             <Producto
-                                title="PRODUCTO"
-                                price={150}
+                                title="PC HUAWEI"
+                                price={15000}
                                 addItemCart={props.addItemCart}
                                 itemsCart={props.itemsCart}
+                                deleteItemCart={props.deleteItemCart}
+                                updateItemCart={props.updateItemCart}
                             />
                         </div>
                         <div className="col-6">
                             <Producto
-                                title="PRODUCTO"
+                                title="NOKIA S8"
                                 price="2000"
                                 addItemCart={props.addItemCart}
                                 itemsCart={props.itemsCart}
+                                deleteItemCart={props.deleteItemCart}
+                                updateItemCart={props.updateItemCart}
                             /> 
                         </div>
                     </div>
@@ -33,6 +37,5 @@ const Productos = (props) => {
         </Fragment>
     )
 }
-
 
 export default Productos

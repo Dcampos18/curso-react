@@ -10,6 +10,7 @@ const Criptomoneda = () => {
     const [ loading, changeLoading ] = useState(true)
     const [ criptomonedas, guardarCriptomonedas ] = useState([])
 
+
     useEffect(() => {
         const consultarAPI = async () => {
             const url = 'https://min-api.cryptocompare.com/data/top/mktcapfull?limit=10&tsym=USD'
@@ -32,10 +33,10 @@ const Criptomoneda = () => {
                         <Loading mensaje='Cargando'/> 
                     : 
                         <ol className="listCriptos">
-                        {criptomonedas.map(cripto => (
-                            <li><a href="#">{cripto.CoinInfo.FullName}</a></li>
-                        ))}
-                </ol>
+                            {criptomonedas.map(cripto => (
+                                <li><a href="#">{cripto.CoinInfo.FullName}</a></li>
+                            ))}
+                        </ol>
                 
                 }
             </div>
